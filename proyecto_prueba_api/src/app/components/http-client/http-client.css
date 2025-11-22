@@ -1,8 +1,3 @@
-/* ============================================================
-   Diseño Moderno Minimalista – SaaS Clean Style
-   Tipografía: Inter
-   Colores: Neutros + acento (#3b82f6)
-============================================================ */
 
 :host {
     display: block;
@@ -231,3 +226,4 @@
     border: 1px solid #fecaca;
     font-weight: 600;
 }
+
