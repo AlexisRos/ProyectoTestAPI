@@ -1,7 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { FormsModule } from '@angular/forms'; 
-import { CommonModule } from '@angular/common'; 
-// ⬇️ Importamos el servicio sin el sufijo .service.ts ⬇️
 import { HttpRequestService } from '../../services/http-request'; 
 import { RequestOptions, ResponseData } from '../../models/api-models';
 
@@ -14,7 +12,6 @@ interface HeaderPair {
   selector: 'app-http-client', 
   standalone: true, 
   imports: [CommonModule, FormsModule], 
-  // ⬇️ Plantillas (.html y .css) ⬇️
   templateUrl: './http-client.html', 
   styleUrls: ['./http-client.css']
 })
@@ -104,4 +101,5 @@ export class HttpClientComponent implements OnInit {
     }
     return '';
   }
+
 }
